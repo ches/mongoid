@@ -188,7 +188,7 @@ module Mongoid # :nodoc:
           #
           # @since 2.1.0
           def valid_options
-            [ :as, :cyclic ]
+            [ :as, :cyclic, :cascade_callbacks ]
           end
         end
       end
